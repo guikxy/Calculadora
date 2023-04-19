@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora matematica</title>
+</head>
+<body>
+    <center>
+    <h1>Cálculos Matemáticos</h1>
+    <script>
+        //prompt é aonde infroma o valor
+        //var é a variavel criada que armazerna o que foi digitado
+        //ParseInt converte o valor de texto para número intero
+        var num1 = parseInt(prompt("Digite um  número"));
+        var num2 = parseInt(prompt("Digite outro  número"));
+        var soma = num1 + num2;
+        var sub = num1 + num2;
+        var mult  = num1 * num2
+        var div = num1 / num2
+
+        //docoment.write é aonde imprime os valores
+        document.write("O primero número digitado foi: ") + num1        
+        //<br> pula uma linha
+        document.write("<br>")                
+        document.write("O primero número digitado foi: ") + num2        
+        document.write("<br>")
+        document.write("<br>")
+        document.write("<h2>")
+        document.write("A soma é: " + soma)
+        document.write("<br>")
+        document.write("A subtração é: " + sub)
+        document.write("<br>")
+        document.write("A multiplicação é: " + mult)
+        document.write("<br>")
+        document.write("A divisão é: " + div)
+        document.write("<h2>")
+    </script>
+    <h3>Se caso não consegui seu cáuculo clique na imagem abaixo</h3>
+    <a href="https://www.google.com/search?q=google+calculadora&oq=google+caucu&aqs=chrome.1.69i57j0i10i131i433i512j0i10i512l8.4912j0j9&sourceid=chrome&ie=UTF-8" target="_blank"><img src="matematica.jpg" alt="" width="500px" height="250"></a>
+    </center>
+</body>
+</html>
